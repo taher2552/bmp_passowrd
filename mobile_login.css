@@ -382,6 +382,14 @@ cursor: pointer;
 }
 /* password get otp ends */
 
+
+@media only screen and (max-width: 430px) {
+  .mobile_login_get_otp{
+    left:75%;
+  }
+}
+
+
 @media only screen and (max-width: 370px) {
   .mobile_login_option {
     flex-direction: column;
@@ -390,5 +398,9 @@ cursor: pointer;
   .mobile_login_tabs {
     margin-bottom: 0.5rem;
     width: 8rem;
+  }
+
+  .mobile_login_get_otp{
+    left:70%;
   }
 }
